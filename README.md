@@ -3,7 +3,7 @@ ECOfox
 
 FirefoxOS Athens 2013 appdays
 
-![ECOfox Logo](https://drive.google.com/file/d/0ByBL_QSpIwQ3RGlUdjEzSnhPOVk/edit?usp=sharing)
+![ECOfox logo](https://drive.google.com/file/d/0ByBL_QSpIwQ3RGlUdjEzSnhPOVk/edit?usp=sharing)
 
 <h2>Introduction</h2>
 This application is a home power consumption monitor that utilizes the premises ppc power meter to calculate various appliances power consumption without using extra hardware equipment (meters).
@@ -25,7 +25,6 @@ During the last decade energy management efforts have mainly concentrated on dev
 <h2>Wireframes</h2>
 - ![Main screen](https://plus.google.com/u/0/photos/105097433715685239072/albums/5950916306112219601/5950916314177501858?pid=5950916314177501858&oid=105097433715685239072)
 - ![Help] (https://plus.google.com/u/0/photos/105097433715685239072/albums/5950916306112219601/5950916312587313858?pid=5950916312587313858&oid=105097433715685239072)
-- ![]
 
 <h2>How it works</h2>
 Initially the user needs to ![add a list of all the devices](https://plus.google.com/u/0/photos/105097433715685239072/albums/5950916306112219601/5950923333355656322?pid=5950923333355656322&oid=105097433715685239072) and calibrate each one separately. 
