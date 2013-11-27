@@ -3,7 +3,7 @@ ECOfox
 
 FirefoxOS Athens 2013 appdays
 
-![ECOfox logo](https://drive.google.com/file/d/0ByBL_QSpIwQ3RGlUdjEzSnhPOVk/edit?usp=sharing)
+![ECOfox logo](images/ecofoxlogo.png)
 
 <h2>Introduction</h2>
 This application is a home power consumption monitor that utilizes the premises ppc power meter to calculate various appliances power consumption without using extra hardware equipment (meters).
@@ -23,8 +23,7 @@ The consumption of each device can be measured within a short period, by monitor
 During the last decade energy management efforts have mainly concentrated on developing new efficient and environmentally friendly energy sources. Much less attention has been given to reducing energy consumption (and thus monetary and environmental cost) both for the final user and the world as a whole. Moreover, until now the statistical study and profiling of energy consumption on an %quo;end-user level%quo; has been costly, inaccurate and cumbersome. A low cost crowd-sourced method that can offer direct cost benefits to the participants on a large scale, can enable important cost and energy savings on both a large and low level scale. 
 
 <h2>Wireframes</h2>
-- ![Main screen](https://plus.google.com/u/0/photos/105097433715685239072/albums/5950916306112219601/5950916314177501858?pid=5950916314177501858&oid=105097433715685239072)
-- ![Help] (https://plus.google.com/u/0/photos/105097433715685239072/albums/5950916306112219601/5950916312587313858?pid=5950916312587313858&oid=105097433715685239072)
+https://plus.google.com/photos/105097433715685239072/albums/5950916306112219601?authkey=COS2mLDR8OnoLg
 
 <h2>How it works</h2>
 Initially the user needs to ![add a list of all the devices](https://plus.google.com/u/0/photos/105097433715685239072/albums/5950916306112219601/5950923333355656322?pid=5950923333355656322&oid=105097433715685239072) and calibrate each one separately. 
@@ -32,19 +31,20 @@ Initially the user needs to ![add a list of all the devices](https://plus.google
 The first step of the calibration phase is to estimate the households idle consumption, which is done via the following procedure:
 - ![Turn all devices off](https://plus.google.com/u/0/photos/105097433715685239072/albums/5950916306112219601/5950916313984724450?pid=5950916313984724450&oid=105097433715685239072)
 - ![Input current meter reading](https://plus.google.com/u/0/photos/105097433715685239072/albums/5950916306112219601/5950916314882012242?pid=5950916314882012242&oid=105097433715685239072)
-- Set the timer
+- Press next (starts the timer)
 - ![Wait for a specified period of time](https://plus.google.com/u/0/photos/105097433715685239072/albums/5950916306112219601/5950916314277139922?pid=5950916314277139922&oid=105097433715685239072)
-- Stop the timer and input the new reading
+- Press next, input the new reading
+- Press finish (stops the timer)
 
 The above procedure will ![calculate base consumption](https://plus.google.com/u/0/photos/105097433715685239072/albums/5950916306112219601/5950916313824243330?pid=5950916313824243330&oid=105097433715685239072) for the household.
 
 The devices calibration works as follows:
 - ![Turn all devices off](https://plus.google.com/u/0/photos/105097433715685239072/albums/5950916306112219601/5950916313984724450?pid=5950916313984724450&oid=105097433715685239072)
 - ![Input current meter reading](https://plus.google.com/u/0/photos/105097433715685239072/albums/5950916306112219601/5950923333192973842?pid=5950923333192973842&oid=105097433715685239072)
-- Set timer
+- (timer starts)
 - ![Turn on device under consideration](https://plus.google.com/u/0/photos/105097433715685239072/albums/5950916306112219601/5950923333571580514?pid=5950923333571580514&oid=105097433715685239072)
 - ![Wait for a specified period of time](https://plus.google.com/u/0/photos/105097433715685239072/albums/5950916306112219601/5950916314277139922?pid=5950916314277139922&oid=105097433715685239072)
-- Stop timer
+- (timer stops)
 - ![Input new meter reading](https://plus.google.com/u/0/photos/105097433715685239072/albums/5950916306112219601/5950923333719460578?pid=5950923333719460578&oid=105097433715685239072)
 
 The estimation of the ![device consumption and cost](https://plus.google.com/u/0/photos/105097433715685239072/albums/5950916306112219601/5950923334708580786?pid=5950923334708580786&oid=105097433715685239072) is done by subtracting the idle consumption from the newly measured consumption.
